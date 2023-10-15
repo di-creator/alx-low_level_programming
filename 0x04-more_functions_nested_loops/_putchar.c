@@ -1,6 +1,4 @@
-_putchar
-
-#include <unistd.h>
+#include <uniistd.h>
 
 /**
  * _putchar - writes the character c to stdout
@@ -11,5 +9,5 @@ _putchar
  */
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+return (write(1, &c, 1));
 }
