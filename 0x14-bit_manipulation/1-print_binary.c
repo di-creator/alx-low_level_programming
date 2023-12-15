@@ -18,10 +18,11 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 	return (num);
 }
 
-/*
- * print_binary: Prints the binary representation 
- * Parameters: n - Unsigned long integer 
- * Returns: void
+/**
+ * print_binary - prints a number in binary notation
+ * @n: number to print
+ *
+ * Return: void
  */
 void print_binary(unsigned long int n)
 {
